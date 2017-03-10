@@ -9,7 +9,7 @@ body {
   position: relative;
   top: -55px;
   width: 100%;
-  background: url("/img/fh16.jpg") no-repeat center bottom;
+  background: url("fh16.jpg") no-repeat center bottom;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -140,7 +140,7 @@ a {
 }
 
 .aboutus {
-  background: url("/img/service.jpg") no-repeat center bottom;
+  background: url("service.jpg") no-repeat center bottom;
   background-size: cover;
   background-attachment: fixed;
   box-sizing: border-box;
@@ -159,7 +159,7 @@ a {
 
 .phc {
 
-  background: url("/img/service.jpg") no-repeat center bottom;
+  background: url("service.jpg") no-repeat center bottom;
   background-size: cover;
   background-attachment: fixed;
   box-sizing: border-box;
