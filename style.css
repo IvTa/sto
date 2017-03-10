@@ -176,15 +176,6 @@ a {
   width: 100%;
  }
  
-.iframe {
- width: 1280px;
- height: 720px;
- border: 0;
- text-align: center;
- margin: 0px 2% 80px 2%;
- 
-} 
- 
 
 .orange {
   color: #FCA311;
@@ -194,4 +185,5 @@ a {
   padding: 20px 10px;
   text-align: center;
 }
+
 
