@@ -158,7 +158,6 @@ a {
 }
 
 .phc {
-
   background: url("service.jpg") no-repeat center bottom;
   background-size: cover;
   background-attachment: fixed;
@@ -170,12 +169,19 @@ a {
 }
 
 .ph {
-  display: inline-block;
-  margin: 0px 2% 80px 2%;
-  text-align: center;
-  width: 100%;
- }
- 
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.ph iframe {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
 
 .orange {
   color: #FCA311;
@@ -185,5 +191,3 @@ a {
   padding: 20px 10px;
   text-align: center;
 }
-
-
