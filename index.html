@@ -14,17 +14,18 @@
 <body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="fancybox/dist/jquery.fancybox.min.js?v=1488878553"></script>
-  <script src="js/index.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/smooth-scroll.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+  
 
   <div class="navigation">
     <ul>
       <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Головна</a></li>
-      <li><a href="#ab"><span class="glyphicon glyphicon-user"></span> Про нас</a></li>
+      <li><a href="#ab" class="smooth"><span class="glyphicon glyphicon-user"></span> Про нас</a></li>
       <li id="logo">Ремонт вантажних автомобілів</li>
-      <li><a href="#serv"><span class="glyphicon glyphicon-wrench"></span> Послуги</a></li>
-      <li><a href="#cont"><span class="glyphicon glyphicon-phone"></span> Контакти</a></li>
+      <li><a href="#serv" class="smooth"><span class="glyphicon glyphicon-wrench"></span> Послуги</a></li>
+      <li><a href="#cont" class="smooth"><span class="glyphicon glyphicon-phone"></span> Контакти</a></li>
     </ul>
   </div>
 
@@ -88,7 +89,7 @@
     </div>
 
 
-    <div id="form" class="form">
+    <div id="form" hidden class="form">
 
       <h6>Написати нам:</h6>
       <form method="POST" action="https://formspree.io/itb25@ukr.net">
